@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil - SMK Negeri 1 Enrekang</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        .top-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #f1f1f1;
+            padding: 10px 20px;
+            font-size: 14px;
+        }
+        
+        .top-header .date, .top-header .latest {
+            color: #555;
+        }
+
+        .header-main {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            padding: 20px;
+            background-color: #fff;
+            border-bottom: 2px solid #ccc;
+        }
+        
+        .header-main .logo {
+            height: 80px;
+            margin-bottom: 10px;
+        }
+        
+        .header-main h1 {
+            font-size: 28px;
+            color: #333;
+            text-transform: uppercase;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 5px;
+        }
+        
+        .header-main p {
+            font-size: 16px;
+            color: #666;
+            text-align: center;
+        }
+
+        .navbar {
+            background-color: #333;
+        }
+        
+        .navbar ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+        
+        .navbar ul li {
+            margin: 0 15px;
+        }
+        
+        .navbar ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 16px;
+            display: flex;
+            align-items: center;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+        
+        .navbar ul li a:hover {
+            background-color: #555;
+        }
+        
+        .navbar ul li img {
+            height: 18px;
+            margin-right: 5px;
+        }
+
+        main {
+            padding: 40px 20px;
+            background-color: #f5f5f5;
+        }
+        
+        .profile-section {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        
+        .profile-section h2 {
+            font-size: 28px;
+            color: #333;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .profile-section p {
+            font-size: 16px;
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+        
+        .profile-section h3 {
+            font-size: 22px;
+            color: #444;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        
+        .profile-section ol {
+            margin-left: 20px;
+            padding-left: 10px;
+            list-style-type: decimal;
+        }
+        
+        .profile-section ol li {
+            font-size: 16px;
+            color: #555;
+            margin-bottom: 8px;
+            line-height: 1.6;
+        }
+        
+        @media (max-width: 600px) {
+            .profile-section {
+                padding: 15px;
+            }
+        
+            .profile-section h2 {
+                font-size: 24px;
+            }
+        
+            .profile-section h3 {
+                font-size: 20px;
+            }
+        
+            .profile-section p,
+            .profile-section ol li {
+                font-size: 15px;
+            }
+        }
+
+        .footer {
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+        }
+        
+        .footer-content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            margin-bottom: 20px;
+        }
+        
+        .footer-content .about, .footer-content .contact, .footer-content .social-media {
+            width: 250px;
+        }
+        
+        .footer-content h4 {
+            font-size: 18px;
+            color: #fff;
+            margin-bottom: 10px;
+        }
+        
+        .footer-content p {
+            font-size: 14px;
+            color: #ccc;
+            line-height: 1.6;
+        }
+        
+        .footer-content .social-media a img {
+            width: 24px;
+            margin: 0 5px;
+            filter: brightness(0) invert(1);
+        }
+        
+        .footer-bottom {
+            font-size: 14px;
+            color: #ccc;
+        }
+    </style>
+</head>
+<body>
+    <header class="header-main">
+        <img src="smk.png" alt="Logo SMK Negeri 1 Enrekang" class="logo">
+        <h1>SMK NEGERI 1 ENREKANG</h1>
+        <p>Membangun Generasi Unggul dan Terampil di Bidang Kejuruan</p>
+    </header>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="LandingPage.html"><img src="round.png" alt="Home"></a></li>
+            <li><a href="profil.html">PROFILE</a></li>
+            <li><a href="Programkeahlian.html">PROGRAM KEAHLIAN</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="profile-section">
+            <h2>Sejarah dan Visi Misi</h2>
+            <p>Sekolah Menengah Kejuruan (SMK) Negeri 1 Enrekang pada awal pendiriannya merupakan sekolah swasta yang didirikan sejak tahun 1965 dengan nama SMEP Kalosi, Kabupaten Enrekang. Tahun 1968 merupakan kelas jauh SMEA Negeri Rantepao (Tator). Empat tahun kemudian 1972 kelas jauh dari SMEA Negeri Rappang .Tahun 1976 merupakan kelas jauh dari SMEA Negeri Pangkajene Sidenreng. Tahun 1978 kelas jauh dari SMEA Negeri Pinrang. Tahun 1978-1985 berubah menjadi SMEA YASKAPEKA KALOSI.</p>
+            <p>Perjalanan Panjang dari sekolah ini, tepatnya 1986-1999 diakreditasi dengan status diakui. Tahun 1999 berhasil menjadi SMKN 1 EREKANG dengan Nomor SK : 217/0/2000 tanggal 17 Nopember 2000.</p>
+            <p>Perkembangan SMKN 1 Enrekang semakin memperlihatkan hasil yang menggembirakan. Betapa tidak pada awalnya peserta didik hanya belajar pada gedung yang sangat darurat. Berkat kegigihan sivitas sekolah, diperoleh bantuan dari pemerintah pusat melalui Direktorat Jenderal (Dikmenjur) sekitar 5 Milyar.</p>
+            <p>SMKN 1 Enrekang ditetapkan sebagai sekolah unggulan dengan SK Gubernur Propinsi Sul-Sel N0 : 575. Sampai sekarang / tahun 2018 SMKN 1 Enrekang membina lima Program Studi antara lain Administrasi Perkantoran, Akuntansi , Pemasaran, Teknik Komputer Jaringan dan Teknik Audio Vidio dengan total siswa 604 siswa.</p>
+            <h3>Visi</h3>
+            <p>Smk Negeri 1 Enrekang Sebagai Pusat Pendidikan Dan Pelatihan Bertaraf Nasional Dan Internasional</p>
+            <h3>Misi</h3>
+            <ol>
+                <li>Menghasilkan Lulusan Yang Berkeperibadian Unggul Dan Bertaqwa Kepada Tuhan Yang Maha Esa</li>
+                <li>Menyelenggarakan Pendidikan Dan Pelatihan Bertaraf Nasionan Dan Internasional</li>
+                <li>Menyiapkan Lulusan Yang Mampu Mengembangkan Kompetensi Secara Professional Dan Berwawasan Global</li>
+                <li>Menyiapkan Lulusan Yang Siap Kerja, Cerdas Dan Kompetitif, Menjadi Wira Usahawan Yang Tangguh</li>
+            </ol>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="about">
+                <h4>Tentang Kami</h4>
+                <p>SMK Negeri 1 Enrekang berkomitmen untuk menjadi lembaga pendidikan kejuruan yang unggul dalam membekali siswa dengan keterampilan siap kerja.</p>
+            </div>
+            <div class="contact">
+                <h4>Kontak</h4>
+                <p>Email: info@smknegeri1enrekang.sch.id</p>
+                <p>Telepon: (0421) 123456</p>
+                <p>Alamat: Jl. Pendidikan No.1, Enrekang, Sulawesi Selatan</p>
+            </div>
+            <div class="social-media">
+                <h4>Ikuti Kami</h4>
+                <a href="#"><img src="Facebook.png" alt="Facebook">
+                <a href="#"><img src="Instagram.png" alt="Instagram">
+                <a href="#"><img src="x.png" alt="Twitter">
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 SMK Negeri 1 Enrekang. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
